@@ -23,7 +23,7 @@ const LandingPage = () => {
             <i class="devicon-mongodb-plain dev-icon "></i>
             <i class="devicon-php-plain dev-icon "></i>
             <i class="devicon-mysql-plain dev-icon "></i>
-            <i class="devicon-dot-net-plain dev-icon "></i>
+            <i class="devicon-bootstrap-plain"></i>
           </div>
         </div>
       </Container>
