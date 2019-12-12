@@ -16,6 +16,7 @@ import ReactApp from "../images/ReactApp.png";
 import MernToDoApp from "../images/MernToDoApp.png";
 import Zayin from "../images/Zayin.png";
 import ShoppingCart from "../images/ShoppingCart.png";
+import FlutterPortfolio from "../images/FlutterPortfolio.png";
 
 const Projects = () => {
   return (
@@ -221,6 +222,43 @@ const Projects = () => {
                   <CardImg
                     top
                     width="100%"
+                    src={FlutterPortfolio}
+                    alt="Card image cap"
+                  />
+                  <CardBody>
+                    <CardTitle className="project-header">
+                      Flutter Portfolio
+                    </CardTitle>
+                    <a
+                      className="project-icon"
+                      href="https://github.com/Hamzah-Ahmad/flutter-portfolio.git"
+                      target="_blank"
+                    >
+                      <i className="devicon-github-plain"></i>
+                    </a>
+                    <a
+                      className="project-icon"
+                      href="https://hamzah-ahmad.github.io/flutter-portfolio/"
+                      target="_blank"
+                    >
+                      <i className="fa fa-globe"></i>
+                    </a>
+                    <CardText className="tech-used">
+                      Technologies Used:
+                    </CardText>
+                    <Row>
+                      <Col xs="5">
+                        <small className="tech-used-icon">Bootstrap</small>
+                      </Col>
+                    </Row>
+                  </CardBody>
+                </Card>
+              </Col>
+              <Col className="project-col" lg="4">
+                <Card id="project-card" className="h-100">
+                  <CardImg
+                    top
+                    width="100%"
                     src={BlogApp}
                     alt="Card image cap"
                   />
@@ -263,6 +301,7 @@ const Projects = () => {
                   </CardBody>
                 </Card>
               </Col>
+
               <Col className="project-col" lg="4">
                 <Card id="project-card" className="h-100">
                   <CardImg
