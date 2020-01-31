@@ -17,6 +17,8 @@ import MernToDoApp from "../images/MernToDoApp.png";
 import Zayin from "../images/Zayin.png";
 import ShoppingCart from "../images/ShoppingCart.png";
 import FlutterPortfolio from "../images/FlutterPortfolio.png";
+import QuizApp from "../images/QuizApp.png";
+import QuizAppImg from "../images/QuizAppImg.png";
 
 const Projects = () => {
   return (
@@ -117,7 +119,49 @@ const Projects = () => {
                   </CardBody>
                 </Card>
               </Col>
-
+              <Col className="project-col" lg="4">
+                <Card id="project-card" className="h-100">
+                  <CardImg
+                    top
+                    width="100%"
+                    src={QuizAppImg}
+                    alt="Card image cap"
+                  />
+                  <CardBody>
+                    <CardTitle className="project-header">
+                      React Quiz App
+                    </CardTitle>
+                    <a
+                      className="project-icon"
+                      href="https://github.com/Hamzah-Ahmad/react-quiz-app"
+                      target="_blank"
+                    >
+                      <i className="devicon-github-plain"></i>
+                    </a>
+                    <a
+                      className="project-icon"
+                      href="https://quiz-appltion.herokuapp.com/"
+                      target="_blank"
+                    >
+                      <i className="fa fa-globe"></i>
+                    </a>
+                    <CardText className="tech-used">
+                      Technologies Used:
+                    </CardText>
+                    <Row>
+                      <Col xs="5">
+                        <small className="tech-used-icon">React</small>
+                      </Col>
+                      <Col xs="5">
+                        <small className="tech-used-icon">Context API</small>
+                      </Col>
+                      <Col xs="5">
+                        <small className="tech-used-icon">Material UI</small>
+                      </Col>
+                    </Row>
+                  </CardBody>
+                </Card>
+              </Col>
               <Col className="project-col" lg="4">
                 <Card id="project-card" className="h-100">
                   <CardImg
@@ -312,7 +356,7 @@ const Projects = () => {
                   />
                   <CardBody>
                     <CardTitle className="project-header">
-                      Heavens's View
+                      Landing Page
                     </CardTitle>
                     <a
                       className="project-icon"
