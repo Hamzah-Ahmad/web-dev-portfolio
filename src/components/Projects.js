@@ -18,7 +18,6 @@ import Zayin from "../images/Zayin.png";
 import ShoppingCart from "../images/ShoppingCart.png";
 import FlutterPortfolio from "../images/FlutterPortfolio.png";
 import QuizApp from "../images/QuizApp.png";
-import QuizAppImg from "../images/QuizAppImg.png";
 
 const Projects = () => {
   return (
@@ -124,7 +123,7 @@ const Projects = () => {
                   <CardImg
                     top
                     width="100%"
-                    src={QuizAppImg}
+                    src={QuizApp}
                     alt="Card image cap"
                   />
                   <CardBody>
